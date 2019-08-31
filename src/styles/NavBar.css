@@ -1,4 +1,6 @@
 .NavBar {
+    display: flex;
+    align-items: center;
     background-color: white;
     border-bottom: grey;
 };
@@ -9,20 +11,26 @@
     padding: 0px;
 }
 
-ul {
+
+
+#sitename {
+    font-size: 500%;
+    color: white;
+}
+.nav {
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    padding: 10px;
 }
-
-Link {
+.item {
     margin: 0;
-    display: inline;
+    padding: 0;
+}
+button {
     cursor: pointer;
-    padding: 20px;
-}    
-
-Link:hover {
-    color:  rgb(216, 137, 199);
+    color: white;
+    background-color: steelblue;
+}
+button:hover {
+    color: black;
+    background-color: white;
 }
