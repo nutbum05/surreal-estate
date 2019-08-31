@@ -1,21 +1,23 @@
 import React from 'react';
-import { render } from 'react-dom';
+import NavBar from './NavBar';
 import '../styles/app.css';
-import NavBar from '../components/nav-bar';
+import { Switch, Route } from 'react-router';
+import Properties from './Properties';
+import AddProperty from './AddProperty';
+import { BrowserRouter } from 'react-router-dom';
 
-class App extends React.Component {
-    constructor(props) {
-      super(props);
-    }
-
-render(){
-    return (
-        <div>
-            <NavBar />
-        </div>
-    )
-}
-}
-
+const App = () => {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Properties} />
+          <Route exact path="/add-property" component={AddProperty} />
+        </Switch>
+      </BrowserRouter>
+    </div>
+  );
+};
 
 export default App;

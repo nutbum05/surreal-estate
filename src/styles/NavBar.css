@@ -1,0 +1,28 @@
+.NavBar {
+    background-color: white;
+    border-bottom: grey;
+};
+
+.logo {
+    border-image: url('../images/logo.png');
+    height: 75px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding: 10px;
+}
+
+Link {
+    margin: 0;
+    display: inline;
+    cursor: pointer;
+    padding: 20px;
+}    
+
+Link:hover {
+    color:  rgb(216, 137, 199);
+}

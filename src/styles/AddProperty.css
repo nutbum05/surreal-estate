@@ -1,0 +1,33 @@
+.AddProperty {
+    padding: 20px;
+    align-items: vertical; 
+}
+
+input {
+    width: 50%;
+    justify-content: center;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #764971;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+select {
+    width: 50%;
+    padding: 12px 12px;
+    border: 2px solid #764971;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+  background-color: #764971;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Lexend Deca', sans-serif;
+}
