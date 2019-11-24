@@ -1,33 +1,37 @@
 .AddProperty {
-    padding: 20px;
-    align-items: vertical; 
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
 }
-
+form {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
 input {
-    width: 50%;
-    justify-content: center;
-    padding: 12px 12px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #764971;
-    font-family: 'Lexend Deca', sans-serif;
+	position: relative;
+	width: 50%;
+	padding: 12px 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #764971;
+	font-family: 'Lexend Deca', sans-serif;
 }
 
 select {
-    width: 50%;
-    padding: 12px 12px;
-    border: 2px solid #764971;
-    margin: 8px 0;
-    box-sizing: border-box;
-    font-family: 'Lexend Deca', sans-serif;
+	width: 50%;
+	padding: 12px 12px;
+	border: 2px solid #764971;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-family: 'Lexend Deca', sans-serif;
 }
 
 button {
-  background-color: #764971;
-  border: none;
-  color: white;
-  padding: 12px 12px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: 'Lexend Deca', sans-serif;
+	background-color: #764971;
+	color: white;
+	padding: 12px 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: 'Lexend Deca', sans-serif;
 }
